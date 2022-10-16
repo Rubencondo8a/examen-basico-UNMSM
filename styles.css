@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.cabecera{
+    text-align: center;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 30px;
+    background-color: rgb(255, 172, 7);
+}
+.cabecera>p{
+
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+main{
+    margin: 15px;
+}
+
+label{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.fila{
+    background-color: rgb(210, 230, 255);
+    padding:12px 5px;
+    width: 99%;
+    /* border-bottom: 1px solid rgb(247, 247, 247); */
+    text-align: center;
+}
+
+.entrada{
+    background-color: rgba(255, 255, 255, 0.73);
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.fila>input{
+    padding-left: 10px;
+}
+
+.btn__consultar{
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(18, 212, 148);
+    transition-property:background-color;
+    transition-duration: 0.3s;
+    padding: 15px 20px;
+    text-transform: uppercase;
+}
+
+.btn__consultar:hover{
+    background-color: red;
+    color: white;
+}
+
+.fondo__resultado{
+    background-color: red;
+    padding: 10px;
+}
+.fondo__resultado>p{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+
+#resultado{
+    color: rgb(210, 210, 210);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}

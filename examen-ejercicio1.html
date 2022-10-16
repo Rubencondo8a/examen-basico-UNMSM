@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>examen: ejercicio nº 1 de java script basico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    <body>
+        <!-- Realizar una págaina WEB en la cual se tenga la información básica del estudiante (nombre, apellido, sexo, lugar de nacimiento),
+        valide si el lugar de nacimiento es capital o provincia,
+        valide si es alt@ o baj@ (mujer = 165, hombre = 170). -->
+        <main>
+            <form action="" autocomplete="off">
+                <div class="cabecera"><p>Consulte datos</p></div>
+                <div class="fila">
+                    <label for="">Ingrese su nombres</label>
+                    <input type="text" class="entrada" id="txtnombres" placeholder="Nombres">
+                </div>
+                <div class="fila">
+                    <label for="">Ingrese su apellidos</label>
+                    <input type="text" class="entrada" id="txtApellidos" placeholder="Apellidos">
+                </div>
+                <div class="fila">
+                    <label for="">Selecione genero</label>
+                    <select name="" id="cbxGenero" class="entrada">
+                        <option value="M">Masculino</option>
+                        <option value="F">Femenino</option>
+                    </select>
+                </div>
+                <div class="fila">
+                    <label for="">Ciudad de nacimiento</label>
+                    <select name="" id="cbxCiudades" class="entrada">
+                        <option value="">..Seleciona ciudad..</option>
+                    </select>
+                    <select name="" class="entrada" id="cbxProvincias">
+                        <option value="">..Selecciona provincia..</option>
+                    </select>
+                </div>
+                <div class="fila">
+                    <label for="">Ingrese su estatura</label>
+                    <input type="number" class="entrada" min="0" id="txtEstatura" placeholder="En decimales 0.00">
+                </div>
+                <div class="fila">
+                    <button class="btn__consultar" type="submit" id="btnConsultar">Consultar</button>
+                </div>
+                <div class="fondo__resultado" id="resultado"></div>
+            </form>
+        </main>
+        <script src="app.js"></script>
+    </body>
+
+</html>
